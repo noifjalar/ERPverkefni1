@@ -1,10 +1,10 @@
-page 50002 "Radio Show Type List_PKT"
+page 50002 RadioShowTypeList
 {
-    Caption = 'Radio Show Type List';
+    Caption = 'Radio Show Types List';
     PageType = List;
     UsageCategory = Administration;
     ApplicationArea = All;
-    SourceTable = "RadioShowTypes";
+    SourceTable = "RadioShowType";
 
 
     layout
