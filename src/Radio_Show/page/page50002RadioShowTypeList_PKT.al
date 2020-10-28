@@ -4,6 +4,22 @@ page 50002 "Radio Show Type List_PKT"
     PageType = List;
     UsageCategory = Administration;
     ApplicationArea = All;
+    SourceTable = "RadioShowTypes";
+
+
+    layout
+    {
+        area(Content)
+        {
+            repeater(Namedded)
+            {
+
+                field("Code"; rec."Code") {  }
+                field("Description"; rec."Description") {  }
+
+            }
+        }
+    }
 
 
 }

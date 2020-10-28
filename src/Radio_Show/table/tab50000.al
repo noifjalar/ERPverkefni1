@@ -5,7 +5,10 @@ table 50000 RadioShowList
     fields
     {
         field(1; "No."; code[20]) { }
-        field(2; "Radio Show Type"; code[10]) { }
+        field(2; "Radio Show Type"; code[10])
+        {
+            TableRelation = RadioShowTypes;
+        }
         field(3; "Name"; Text[50]) { }
         field(4; "Run Time"; Duration) { }
         field(5; "Host No"; code[20]) { }
